@@ -1,0 +1,20 @@
+{
+  "name": "dayou-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DY Silicone Backend API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
